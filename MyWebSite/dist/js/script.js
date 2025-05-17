@@ -165,9 +165,9 @@ document.getElementById("scrollButton").addEventListener("click", function() {
             if ($(this).scrollTop() > 700) {
                 $('.scroll__top').fadeIn();
             } else {
-                 $('.scroll__top').fadeOut();
+                 $('.scroll__top').fadeOut()
             }
-          
+            
         });
 
         $('#myForm').submit(function(e) {
